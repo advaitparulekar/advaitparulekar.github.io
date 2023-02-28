@@ -234,7 +234,7 @@ section {
 }
 
 .bar {
-    margin: 10px 30px 10px 0;
+    margin: 10px 8% 10px 0;
     color: #008AFC;
 }
 
@@ -252,6 +252,7 @@ section {
 
     .split-right .profile-photo {
         margin-left: 0px;
+        margin-top: 15%
     }
 }
 
