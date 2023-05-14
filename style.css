@@ -306,6 +306,12 @@ a {
     font-size: 14px;
 }
 
+.card .venue {
+    color: black;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
 .card:hover {
     -ms-transform: scale(1.01);
     /* IE 9 */
