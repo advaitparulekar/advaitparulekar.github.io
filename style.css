@@ -174,11 +174,11 @@ section {
 }
 
 .container {
-    padding: 8% 17% 0px;
+    padding: 5% 17% 0px;
 }
 
 .wrapper {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .wrapper div {
@@ -192,14 +192,14 @@ section {
 }
 
 .name {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .split-left p {
     letter-spacing: 0.1px;
     padding-left: 0;
     line-height: 25px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .split-left ul li {
@@ -271,7 +271,7 @@ a {
 }
 
 .row-cards {
-    margin: 8% 17%;
+    margin: 4% 17%;
 }
 
 .row-cards .research {
@@ -330,9 +330,105 @@ a {
     color: #008AFC;
 }
 
+/* Work Experience Section */
+.work-experience {
+    margin: 4% 17%;
+}
+
+.work-experience h2 {
+    margin: 0 0 30px 0;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-experience ul li {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-left: 3px solid #008AFC;
+}
+
+.work-experience .job-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.work-experience .job-description {
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+}
+
+/* News Section */
+.news-section {
+    margin: 4% 17%;
+}
+
+.news-section h2 {
+    margin: 0 0 20px 0;
+}
+
+.news-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fafafa;
+}
+
+.news-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.news-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-item .news-date {
+    color: #008AFC;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.news-item .news-content {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.news-item a {
+    color: #008AFC;
+    font-weight: 500;
+}
+
 
 .additional {
-    margin: 8% 17% 5%;
+    margin: 4% 17% 5%;
     padding: 0 0 50px;
 }
 
